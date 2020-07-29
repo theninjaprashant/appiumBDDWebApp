@@ -41,7 +41,7 @@ public class YahooSignUp extends BasePage {
 	public void user_enter_firstname_and_lastname() {
 		sync(3000l);			//I have added this static wait just to show actions slowly
 		sendkeys(driver, firstname, 10, "Prashant");
-		sendkeys(driver, lastname, 10, "ShaniDev");
+		sendkeys(driver, lastname, 10, "Sharma");
 	}
 
 	@Then("user enter emailid and password")

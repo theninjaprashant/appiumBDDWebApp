@@ -5,6 +5,72 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenario({
+  "name": "To test yahoo sign up fields with positivse scenarios",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@test"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enter firstname and lastname",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.qa.stepdef.YahooSignUp.user_enter_firstname_and_lastname()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enter emailid and password",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.qa.stepdef.YahooSignUp.user_enter_emailid_and_password()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enter phone number",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.qa.stepdef.YahooSignUp.user_enter_phone_number()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user select month of birth and enter day and year",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "com.qa.stepdef.YahooSignUp.user_select_month_of_birth_and_enter_day_and_year()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enter gender",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.qa.stepdef.YahooSignUp.user_enter_gender()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
   "name": "To check validation messages on various fields",
   "description": "",
   "keyword": "Scenario",
